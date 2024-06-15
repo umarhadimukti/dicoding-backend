@@ -4,6 +4,11 @@ const server = http.createServer((req, res) => {
 
     const { method, url } = req;
 
+    switch (url) {
+        case '/users':
+            
+            break;
+    }
 
 });
 
